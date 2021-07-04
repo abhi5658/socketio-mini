@@ -1,0 +1,19 @@
+{
+  "name": "socketio-crash-course-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "d": "nodemon server.js"
+  },
+  "author": "Abhishek Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
+}
